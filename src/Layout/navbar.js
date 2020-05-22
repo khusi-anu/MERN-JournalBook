@@ -11,6 +11,7 @@ const Navbar = () => {
           My Journal
         </Link>
         <SignedInLinks />
+        <SignedOutLinks />
       </div>
     </nav>
   );
