@@ -6,7 +6,9 @@ const ProjectSummary = ({ project }) => {
       <div className="card project-summary">
         <div className="card-content">
           <span className="card-title"> {project.title}</span>
-          <p>Posted by the </p>
+          <p>
+            Posted by {project.authorFirstName} {project.authorLastName}{" "}
+          </p>
           <p>3rd Sep, 2020</p>
         </div>
       </div>
